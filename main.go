@@ -17,7 +17,7 @@ var rotorMapping = map[rune]rune{
 func main() {
 	plaintext := "hello"
 	encryptedText := enigmaEncrypt(plaintext)
-	decryptedText := enigmaDecrypt(encryptedText) // Decryption is the same as encryption in a one-rotor Enigma
+	decryptedText := enigmaDecrypt(encryptedText)
 
 	fmt.Println("Plaintext: ", plaintext)
 	fmt.Println("Encrypted Text: ", encryptedText)
